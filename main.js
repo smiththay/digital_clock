@@ -1,7 +1,10 @@
 
 setInterval(() =>{
 
-const time = document.getElementById("time");
+const time = document.getElementById('time');
+const stand = document.querySelector('.standard')
+const milit = document.querySelector('.military')
+
 
 let date = new Date();
 let hrs = date.getHours();
