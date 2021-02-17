@@ -1,6 +1,7 @@
 
 #time{
-    font-size: 200px;
+    font-size: 100px;
+    font-family: monospace;
     width: 900px;
     margin: 200px;
     text-align: center;
