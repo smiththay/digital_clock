@@ -8,10 +8,6 @@ body {
     background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
 }
-p {
-    margin: 0;
-    padding: 0;
-}
 #time{
     font-family: 'Share Tech Mo', monospace;
     font-size: 90px;
