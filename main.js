@@ -1,7 +1,7 @@
 
 const time = document.getElementById('time');
 const changeButton = document.getElementById("switch");
-let militaryTime = false ;
+let militaryTime = false;
 
 
 let timeUpdate= function() {
