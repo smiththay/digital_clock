@@ -1,6 +1,6 @@
 
 const time = document.getElementById('time');
-const changeButton = document.getElementById("switch");
+//const changeButton = document.getElementById("switch");
 let militaryTime = false;
 
 
@@ -44,6 +44,7 @@ let switchTime = function() {
     militaryTime = !militaryTime;
 }
 
-changeButton.addEventListener('click', switchTime);
+time.addEventListener('mouseover', switchTime);
+time.addEventListener('mouseout', switchTime);
 
 setInterval(timeUpdate, 1000);
