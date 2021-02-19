@@ -13,6 +13,6 @@ Functions
 -If time is less than 12
     return AM
     else return PM
-If militarytime 
-    hours - 12 
+-If militarytime 
+    hours minus 12 
 
