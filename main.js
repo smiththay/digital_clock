@@ -35,9 +35,7 @@ else {
     half = "PM"
     }
     
-    if(hrs < 10){
-        hrs = '0' + hrs 
-        }
+   
      time.textContent = hrs + ':' + min + ':' + sec + ' ' + half;
 
     }
