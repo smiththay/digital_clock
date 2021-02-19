@@ -1,8 +1,8 @@
 
 const time = document.getElementById('time');
+const currentDate = document.getElementById('date')
 //const changeButton = document.getElementById("switch");
 let militaryTime = false;
-
 
 let timeUpdate= function() {
     
@@ -11,10 +11,8 @@ let timeUpdate= function() {
     let min = date.getMinutes();
     let sec = date.getSeconds();
     let half = "AM"
-
-    if(hrs < 10){
-        hrs = '0' + hrs 
-        }
+    
+    
         if(min < 10){
          min = '0' + min;
         }
@@ -35,6 +33,9 @@ else {
     half = "PM"
     }
     
+    if(hrs < 10){
+        hrs = '0' + hrs 
+        }
      time.textContent = hrs + ':' + min + ':' + sec + ' ' + half;
 
     }

@@ -8,8 +8,22 @@ body {
     background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
     background-size: 100%;
 }
-#time{
-    font-family: 'Share Tech Mo', monospace;
+
+/*#date{
+    font-family: monospace;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+
+}*/
+.container{
+    font-family: monospace;
     font-size: 90px;
     color: #ffffff;
     text-align: center;
